@@ -23,6 +23,7 @@ class EmailParser
     
     puts arr2
     
+    arr2.uniq
     
   end 
 end 
