@@ -13,17 +13,14 @@ class EmailParser
   
   def parse 
     
-    puts @emails
-    
     arr1 = []
     arr2 = []
     
     arr1 = @emails.delete","
     arr2 = arr1.split(" ")
     
-    puts arr2
-    
-    arr2.uniq
+    parsed_arr = []
+    parsed_arr = arr2.uniq
     
   end 
 end 
