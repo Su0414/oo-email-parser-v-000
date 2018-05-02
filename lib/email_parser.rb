@@ -15,5 +15,14 @@ class EmailParser
     
     puts @emails
     
+    arr1 = []
+    arr2 = []
+    
+    arr1 = @emails.delete","
+    arr2 = arr1.split(" ")
+    
+    puts arr2
+    
+    
   end 
 end 
